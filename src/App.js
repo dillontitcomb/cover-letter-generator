@@ -95,12 +95,6 @@ class App extends Component {
                 onChange={this.onChange}
                 placeholder="Enter your email"
               />
-              <InputGroup
-                name="addressOne"
-                value={this.state.addressOne}
-                onChange={this.onChange}
-                placeholder="Enter your address"
-              />
               <h4>Recipient Information:</h4>
               <InputGroup
                 name="recipientName"
@@ -152,8 +146,8 @@ class App extends Component {
                 placeholder="What industry or job title does this sentence pertain to? You can save multiple for different scenarios"
               />
               <TextAreaFieldGroup
-                name="grafIntroTag"
-                value={this.state.grafIntroTag}
+                name="grafIntro"
+                value={this.state.grafIntro}
                 onChange={this.onChange}
                 placeholder="Provide one short paragraph introducing yourself and your relevant skills"
               />
